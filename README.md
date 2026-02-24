@@ -1,62 +1,73 @@
-# 🌟 Portfólio Profissional
+# Welcome to your Lovable project
 
----
+## Project info
 
-## 📖 Descrição do Projeto
-Este projeto consiste no desenvolvimento de um **website de portfólio profissional**, criado para apresentar de forma moderna, responsiva e acessível a trajetória, habilidades, projetos e formas de contato de seus desenvolvedores.
----
-O site inclui as seguintes seções:
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-- **Sobre Mim** – Apresentação em português e inglês, destacando formação acadêmica, área de atuação, interesses e objetivos profissionais.
+## How can I edit this code?
 
-- **Projetos** – Linha do tempo interativa de projetos, com nome, descrição, tecnologias utilizadas, links para repositórios e imagens/GIFs demonstrativos.
+There are several ways of editing your application.
 
-- **Experiências** – Registro de experiências profissionais, estágios, trabalhos e participação em eventos ou projetos relevantes.
+**Use Lovable**
 
-- **Contato** – Ícones clicáveis para redes sociais e formulário funcional para envio de mensagens por e-mail.
-## 👥 Desenvolvedores
-- David Olinda Pomine
-- Jonas Rafael Martins
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-## 🛠️ Tecnologias Utilizadas
+Changes made via Lovable will be committed automatically to this repo.
 
-**Front-end**: React
+**Use your preferred IDE**
 
-**Design e prototipagem**: Figma
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-**Controle de versão**: GitHub e Git
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
----
+Follow these steps:
 
-## 📂 Estrutura Inicial do Site ##
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-Organização de pastas, componentes e módulos do Angular, integração com back-end.
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## 🎨 Protótipos e Telas
+# Step 3: Install the necessary dependencies.
+npm i
 
----
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-# 🚀 Como Executar o Front-end da Aplicação
+**Edit a file directly in GitHub**
 
-## ✅ Pré-requisitos
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## 🚀 Passo a passo (TL;DR)
+**Use GitHub Codespaces**
 
-## 📦 Scripts úteis
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## 🧭 Estrutura esperada do projeto
+## What technologies are used for this project?
 
-## 🛠️ Solução de problemas (FAQ)
+This project is built with:
 
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
+## How can I deploy this project?
 
----
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-# 🖥️ Como Executar o Back-end da Aplicação
+## Can I connect a custom domain to my Lovable project?
 
-## 1️⃣ Instalação do Visual Studio
+Yes, you can!
 
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-
----
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
