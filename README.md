@@ -1,33 +1,64 @@
- Portfólio Profissional
-📖 Descrição do Projeto
-Este projeto consiste no desenvolvimento de um website de portfólio profissional, criado para apresentar de forma moderna, responsiva e acessível a trajetória, habilidades, projetos e formas de contato de seus desenvolvedores.
+# 🌟 Portfólio Profissional
 
+---
+
+## 📖 Descrição do Projeto
+Este projeto consiste no desenvolvimento de um **website de portfólio profissional**, criado para apresentar de forma moderna, responsiva e acessível a trajetória, habilidades, projetos e formas de contato de seus desenvolvedores.
+---
 O site inclui as seguintes seções:
 
-Sobre Mim – Apresentação em português e inglês, destacando formação acadêmica, área de atuação, interesses e objetivos profissionais.
+- **Sobre Mim** – Apresentação em português e inglês, destacando formação acadêmica, área de atuação, interesses e objetivos profissionais.
 
-Projetos – Linha do tempo interativa de projetos, com nome, descrição, tecnologias utilizadas, links para repositórios e imagens/GIFs demonstrativos.
+- **Projetos** – Linha do tempo interativa de projetos, com nome, descrição, tecnologias utilizadas, links para repositórios e imagens/GIFs demonstrativos.
 
-Experiências – Registro de experiências profissionais, estágios, trabalhos e participação em eventos ou projetos relevantes.
+- **Experiências** – Registro de experiências profissionais, estágios, trabalhos e participação em eventos ou projetos relevantes.
 
-Contato – Ícones clicáveis para redes sociais e formulário funcional para envio de mensagens por e-mail.
+- **Contato** – Ícones clicáveis para redes sociais e formulário funcional para envio de mensagens por e-mail.
+## 👥 Desenvolvedores
+- David Olinda
+- Jonas
+---
 
-👥 Desenvolvedores
+## 🛠️ Tecnologias Utilizadas
 
-David Olinda
+**Back-end**: 
 
-Jonas
+**Front-end**: 
 
-🛠️ Tecnologias Utilizadas
-Back-end: 
+**Design e prototipagem**: Figma
 
-Front-end: 
+**Controle de versão**: GitHub e Git
 
-Design e prototipagem: Figma
+---
 
-Controle de versão: GitHub e Git
+## 📂 Estrutura Inicial do Site ##
 
-📂 Estrutura Inicial do Site
 Organização de pastas, componentes e módulos do Angular, integração com back-end.
 
-🎨 Protótipos e Telas
+## 🎨 Protótipos e Telas
+
+---
+
+# 🚀 Como Executar o Front-end da Aplicação
+
+## ✅ Pré-requisitos
+
+## 🚀 Passo a passo (TL;DR)
+
+## 📦 Scripts úteis
+
+## 🧭 Estrutura esperada do projeto
+
+## 🛠️ Solução de problemas (FAQ)
+
+
+
+---
+
+# 🖥️ Como Executar o Back-end da Aplicação
+
+## 1️⃣ Instalação do Visual Studio
+
+
+
+---
