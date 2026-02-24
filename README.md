@@ -15,15 +15,13 @@ O site inclui as seguintes seções:
 
 - **Contato** – Ícones clicáveis para redes sociais e formulário funcional para envio de mensagens por e-mail.
 ## 👥 Desenvolvedores
-- David Olinda
-- Jonas
+- David Olinda Pomine
+- Jonas Rafael Martins
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-**Back-end**: 
-
-**Front-end**: 
+**Front-end**: React
 
 **Design e prototipagem**: Figma
 
