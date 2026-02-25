@@ -28,8 +28,14 @@ Organização de pastas, componentes e módulos do Angular, integração com bac
 # 🚀 Como Executar o Front-end da Aplicação
 
 ## ✅ Pré-requisitos
+Ter alguma IDE instalada, de preferência o VS Code.
+Ter ambiente configurado para utilizar Node.js, React.
 
 ## 🚀 Passo a passo (TL;DR)
+Abrir a pasta do Portifólio
+Abrir o terminal e exercutar o comando npm install, caso necessário
+Se o passo anterior já estiver sido feito, rodar com npm run dev 
+Abrir o endereço fornecido no terminal
 
 ## 📦 Scripts úteis
 
