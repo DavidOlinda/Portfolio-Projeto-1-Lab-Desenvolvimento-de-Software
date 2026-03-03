@@ -1,15 +1,18 @@
 import { Mail, Linkedin, Github } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const ContactSection = () => {
+  const { t } = useLanguage();
+
   return (
     <section id="contato" className="section-padding border-t border-border">
       <div className="max-w-3xl mx-auto text-center">
-        <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4">Contato</p>
+        <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4">{t("contact.label")}</p>
         <h2 className="text-3xl md:text-5xl font-display font-bold text-foreground mb-6">
-          Vamos conversar?
+          {t("contact.title")}
         </h2>
         <p className="text-muted-foreground font-body text-lg mb-10 max-w-lg mx-auto">
-          Estou disponível para novas oportunidades e colaborações. Entre em contato!
+          {t("contact.desc")}
         </p>
 
         <div className="flex justify-center gap-6 mb-16">
@@ -32,7 +35,7 @@ const ContactSection = () => {
 
       <div className="border-t border-border pt-8 text-center">
         <p className="text-muted-foreground/50 font-body text-xs">
-          © {new Date().getFullYear()} — Todos os direitos reservados
+          © {new Date().getFullYear()} — {t("contact.footer")}
         </p>
       </div>
     </section>

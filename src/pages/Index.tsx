@@ -5,6 +5,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import CertificatesSection from "@/components/CertificatesSection";
 import ContactSection from "@/components/ContactSection";
+import SnakeGameSection from "@/components/SnakeGameSection";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <ExperienceSection />
       <ProjectsSection />
       <CertificatesSection />
+      <SnakeGameSection />
       <ContactSection />
     </div>
   );
