@@ -18,9 +18,9 @@ const ContactSection = () => {
 
         <div className="flex justify-center gap-6 mb-16 flex-wrap">
           {[
-            { icon: Mail, label: "Email", href: "mailto:seu@email.com" },
-            { icon: Linkedin, label: "LinkedIn", href: "#" },
-            { icon: Github, label: "GitHub", href: "#" },
+            { icon: Mail, label: "Email", href: "mailto:jonasrmartins17@gmail.com" },
+            { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/jonas-martins-158544178" },
+            { icon: Github, label: "GitHub", href: "https://github.com/Kjonps" },
           ].map(({ icon: Icon, label, href }) => (
             <a
               key={label}

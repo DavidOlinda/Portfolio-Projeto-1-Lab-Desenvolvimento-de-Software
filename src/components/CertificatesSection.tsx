@@ -2,8 +2,8 @@ import { Award } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const certificates = [
-  { title: "Certificação Exemplo 1", titleEn: "Example Certification 1", issuer: "Instituição A", year: "2023" },
-  { title: "Certificação Exemplo 2", titleEn: "Example Certification 2", issuer: "Instituição B", year: "2023" },
+  { title: "Trilha Digital/ Coders 2024/ Dev Ops", titleEn: "Example Certification 1", issuer: "Ada Tech", year: "2024" },
+  { title: "Inglês - Nível Avançado/ Book W4 - W12 (Equivalente a C1 no Quadro Comum Europeu) ", titleEn: "Example Certification 2", issuer: "Wizard Idiomas", year: "2016 - 2021" },
   { title: "Certificação Exemplo 3", titleEn: "Example Certification 3", issuer: "Instituição C", year: "2022" },
   { title: "Certificação Exemplo 4", titleEn: "Example Certification 4", issuer: "Instituição D", year: "2022" },
   { title: "Certificação Exemplo 5", titleEn: "Example Certification 5", issuer: "Instituição E", year: "2021" },
