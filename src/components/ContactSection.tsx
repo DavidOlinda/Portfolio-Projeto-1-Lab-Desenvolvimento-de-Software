@@ -1,5 +1,6 @@
 import { Mail, Linkedin, Github } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import ContactForm from "./ContactForm";
 
 const ContactSection = () => {
   const { t } = useLanguage();
@@ -15,7 +16,7 @@ const ContactSection = () => {
           {t("contact.desc")}
         </p>
 
-        <div className="flex justify-center gap-6 mb-16">
+        <div className="flex justify-center gap-6 mb-16 flex-wrap">
           {[
             { icon: Mail, label: "Email", href: "mailto:seu@email.com" },
             { icon: Linkedin, label: "LinkedIn", href: "#" },
@@ -30,6 +31,11 @@ const ContactSection = () => {
               {label}
             </a>
           ))}
+        </div>
+
+        {/* Contact Form */}
+        <div className="mb-16 pt-8 border-t border-border">
+          <ContactForm />
         </div>
       </div>
 
