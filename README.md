@@ -234,7 +234,7 @@ npm install
 Se o servidor não iniciar porque a porta está ocupada:
 
 ```bash
-npm run dev -- --port 5174
+npm run dev -- --port 8080
 ```
 
 ---
