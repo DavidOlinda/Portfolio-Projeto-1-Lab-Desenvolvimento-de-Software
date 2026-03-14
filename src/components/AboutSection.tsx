@@ -4,9 +4,9 @@ const AboutSection = () => {
   const { t } = useLanguage();
 
   const stats = [
-    { number: "+5", label: t("about.stat1") },
-    { number: "+20", label: t("about.stat2") },
-    { number: "+10", label: t("about.stat3") },
+    { number: "+2", label: t("about.stat1") },
+    { number: "+5", label: t("about.stat2") },
+    { number: "+5", label: t("about.stat3") },
     { number: "+3", label: t("about.stat4") },
   ];
 
