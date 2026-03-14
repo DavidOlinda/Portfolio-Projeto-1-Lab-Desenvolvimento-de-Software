@@ -10,77 +10,93 @@ const translations = {
     "nav.projects": "Projetos",
     "nav.certificates": "Certificados",
     "nav.contact": "Contato",
+
     // Hero
     "hero.subtitle": "Portfólio Profissional",
-    "hero.name": "Jonas",
-    "hero.highlight": "Martins",
-    "hero.description": "Sou estudante de Engenharia de Software e estou no 5º período, construindo minha experiência principalmente por meio de projetos práticos. Já desenvolvi sistemas web, trabalhei com banco de dados, participei de iniciativas usando metodologias ágeis e tive contato com IA em pesquisa acadêmica. Minha trajetória profissional começou antes da área de tecnologia, passando por tradução e ensino, o que me ajudou a desenvolver comunicação, responsabilidade e adaptação. Acredito que posso ajudar a Usiminas justamente por unir essa base técnica com facilidade para aprender e trabalhar em equipe, contribuindo de forma consistente nas atividades do dia a dia e apoiando o time com organização, comprometimento e visão prática dos problemas.",
+    "hero.name": "David",
+    "hero.highlight": "Olinda",
+    "hero.description":
+      "Product Owner Intern com experiência em tecnologia, produtos digitais e suporte técnico. Apaixonado por inovação, resolução de problemas e criação de soluções que geram impacto real.",
     "hero.cta": "Entre em contato",
     "hero.cta2": "Saiba mais",
+
     // About
     "about.label": "Sobre mim",
     "about.title": "Conheça minha trajetória",
-    "about.p1": "Estudante de Engenharia de Software na PUC Minas, com foco em desenvolvimento e dados. Atuo com front-end (HTML, CSS, JavaScript, React, REST, JSON) e possuo sólida base em lógica de programação, além de experiência com C, C++, Python, Java e C#. Tenho experiência na criação de dashboards e análises com Power BI, aplicando visualização de dados para suporte à tomada de decisão, e boa compreensão dos fundamentos da Engenharia de Software e seus processos. Possuo inglês avançado, com certificação pela Wizard Idiomas, sendo capaz de ler, escrever e me comunicar profissionalmente em ambientes técnicos e internacionais. Busco um estágio onde possa contribuir tecnicamente, evoluir na prática e agregar valor ao time.",
-    "about.p2": "",
+    "about.p1":
+      "Estudante de Engenharia com experiência prática em produtos digitais, suporte técnico e atendimento ao cliente. Ao longo da minha trajetória, desenvolvi habilidades analíticas e visão estratégica voltadas para tecnologia.",
+    "about.p2":
+      "Possuo experiência com gestão de produto, levantamento de requisitos, suporte técnico e melhoria contínua de processos. Tenho interesse em inovação, tecnologia e desenvolvimento de soluções digitais.",
     "about.stat1": "Anos de experiência",
     "about.stat2": "Projetos realizados",
     "about.stat3": "Certificações",
     "about.stat4": "Áreas de atuação",
+
     // Experience
     "exp.label": "Experiência",
     "exp.title": "Minha jornada",
     "exp.professional": "Profissional",
-    "exp.academic": "Acadêmica",
-    "exp.role1": "Pixelp Soluções Digitais",
-    "exp.company1": "Tradutor de textos escritos",
-    "exp.desc1": "Tradução de textos para o inglês, para o atendimento de clientes no mercado internacional. ",
-    "exp.role2": "Highbrown Technology",
-    "exp.company2": "Podcast Representative",
-    "exp.desc2": "Atuação como representante de podcast, engajando em discussões em inglês sobre temas gerais e conversas naturais.",
-    "exp.role3": "Engenharia de Software",
-    "exp.company3": "Pontifícia Universidade Católica de Minas Gerais",
-    "exp.desc3": "Graduação voltada ao desenvolvimento de software e fundamentos da computação, com estudos em programação, estruturas de dados, banco de dados, engenharia de requisitos, desenvolvimento de sistemas e boas práticas de desenvolvimento. Também inclui experiência com projetos acadêmicos e trabalho em equipe para construção de soluções tecnológicas.",
-    "exp.role4": "Técnico em Eletrônica",
-    "exp.company4": "SENAI Alvimar Caneiro Rezende",
-    "exp.desc4": "Formação em eletrônica analógica e digital, com conhecimentos em montagem, manutenção e análise de circuitos eletrônicos, leitura e interpretação de esquemas elétricos, utilização de instrumentos de medição (multímetro e osciloscópio), soldagem de componentes e identificação de falhas em equipamentos eletrônicos. Também inclui noções de automação e lógica digital.",
+    "exp.academic": "Formação acadêmica",
+
+    "exp.role1": "Product Owner Intern",
+    "exp.company1": "dti digital",
+    "exp.desc1":
+      "Atuação como Product Owner Intern, apoiando no gerenciamento de backlog, definição de requisitos e acompanhamento do desenvolvimento de produtos digitais.",
+
+    "exp.role2": "Estagiário de Serviços",
+    "exp.company2": "Sisloc Softwares",
+    "exp.desc2":
+      "Responsável por suporte técnico, atendimento a clientes e apoio na resolução de demandas relacionadas ao sistema.",
+
+    "exp.role3": "Estagiário de Suporte",
+    "exp.company3": "Prefeitura de Belo Horizonte",
+    "exp.desc3":
+      "Prestação de suporte técnico a usuários, manutenção básica de sistemas e apoio às demandas internas de TI.",
+
+    "exp.role4": "Vendedor PAP",
+    "exp.company4": "Claro Brasil",
+    "exp.desc4":
+      "Experiência em vendas externas, negociação e atendimento ao cliente, desenvolvendo habilidades de comunicação e persuasão.",
+
     // Projects
     "proj.label": "Projetos",
     "proj.title": "Trabalhos selecionados",
     "proj.imgPlaceholder": "Imagem do projeto",
     "proj.viewProject": "Ver projeto",
     "proj.code": "Código",
-    "proj.proj1.title": "iSmart - Sistema de Gerenciamento de Estoque",
-    "proj.proj1.desc": " Software desenvolvido para otimizar a gestão de estoque, onde além de desenvolvedor, também atuei como PO. Destacado como Trabalho Destaque 2024.1 pela PUC Minas. Tecnologias: HTML, CSS, Node.js, React, Firebase SQL, Bootstrap, Figma. ",
-    "proj.proj2.title": "MasterCar - Sistemas de Vendas para Concessionárias",
-    "proj.proj2.desc": "Sistema de Vendas para concessonária: Simula processos internos de uma concessionária, incluindo vendas e financiamento.",
-    "proj.proj3.title": "Java Parking - Software de Estacionamento",
-    "proj.proj3.desc": "Plataforma para registrar, adicionar e retirar veículos de um estacionamento, seguindo o padrão MVC. ",
-    "proj.proj4.title": "HelpClass - Sistema de Agendamento de Aulas Particulares",
-    "proj.proj4.desc": "Sistema de agendamento e monitoramento de aulas com relatórios, dashboards e gameficação. Atuei como PO e desenvolvedor back-end.",
+
+    "proj.proj1.title": "Projeto de Gestão de Produto",
+    "proj.proj1.desc":
+      "Projeto focado em organização de backlog, definição de requisitos e acompanhamento de desenvolvimento utilizando metodologias ágeis.",
+
+    "proj.proj2.title": "Sistema de Suporte Técnico",
+    "proj.proj2.desc":
+      "Atuação na melhoria de processos de atendimento e suporte, garantindo maior eficiência na resolução de chamados.",
+
+    "proj.proj3.title": "Projeto Acadêmico em Engenharia",
+    "proj.proj3.desc":
+      "Desenvolvimento de solução prática aplicada durante a graduação, com foco em análise de problemas e implementação técnica.",
+
+    "proj.proj4.title": "Projeto Comercial",
+    "proj.proj4.desc":
+      "Aplicação de estratégias de abordagem e negociação para aumento de conversão em vendas externas.",
+
     // Certificates
     "cert.label": "Certificados",
     "cert.title": "Qualificações",
+
     // Contact
     "contact.label": "Contato",
     "contact.title": "Vamos conversar?",
-    "contact.desc": "Estou disponível para novas oportunidades e colaborações. Entre em contato!",
+    "contact.desc":
+      "Estou disponível para novas oportunidades, especialmente na área de tecnologia e produtos digitais. Entre em contato!",
     "contact.footer": "Todos os direitos reservados",
-    "contact.form.name": "Nome",
-    "contact.form.email": "Email",
-    "contact.form.message": "Mensagem",
-    "contact.form.placeholder.name": "Seu nome",
-    "contact.form.placeholder.email": "seu@email.com",
-    "contact.form.placeholder.message": "Digite sua mensagem aqui...",
-    "contact.form.submit": "Enviar Mensagem",
-    "contact.form.sending": "Enviando...",
-    "contact.form.success": "Mensagem enviada com sucesso!",
-    "contact.form.error": "Erro ao enviar mensagem. Tente novamente.",
-    "contact.form.required": "Este campo é obrigatório",
-    "contact.form.invalid_email": "Email inválido",
+
     // Game
     "game.label": "Mini Game",
     "game.title": "Snake 🐍",
-    "game.desc": "Uma pausa divertida! Use as setas do teclado ou deslize na tela para jogar.",
+    "game.desc":
+      "Uma pausa divertida! Use as setas do teclado ou deslize na tela para jogar.",
     "game.score": "Pontos",
     "game.highscore": "Recorde",
     "game.play": "Jogar",
@@ -88,6 +104,7 @@ const translations = {
     "game.points": "pontos",
     "game.retry": "Jogar novamente",
   },
+
   en: {
     // Navbar
     "nav.about": "About",
@@ -95,77 +112,93 @@ const translations = {
     "nav.projects": "Projects",
     "nav.certificates": "Certificates",
     "nav.contact": "Contact",
+
     // Hero
     "hero.subtitle": "Professional Portfolio",
-    "hero.name": "Your Name",
-    "hero.highlight": "Here.",
-    "hero.description": "Brief description about you, your field and what drives you professionally.",
+    "hero.name": "David",
+    "hero.highlight": "Olinda",
+    "hero.description":
+      "Product Owner Intern with experience in technology, digital products and technical support. Passionate about innovation, problem-solving and building impactful digital solutions.",
     "hero.cta": "Get in touch",
     "hero.cta2": "Learn more",
+
     // About
     "about.label": "About me",
     "about.title": "Get to know my journey",
-    "about.p1": "Write a summary about yourself, your education, your interests and what sets you apart as a professional.",
-    "about.p2": "Add information about your main skills, technologies you master and areas of interest.",
+    "about.p1":
+      "Engineering student with practical experience in digital products, technical support and customer service. Throughout my journey, I have developed analytical skills and a strategic mindset focused on technology.",
+    "about.p2":
+      "Experience with product management, requirements gathering, technical support and continuous process improvement. Interested in innovation, technology and digital product development.",
     "about.stat1": "Years of experience",
     "about.stat2": "Projects completed",
     "about.stat3": "Certifications",
     "about.stat4": "Areas of expertise",
+
     // Experience
     "exp.label": "Experience",
     "exp.title": "My journey",
     "exp.professional": "Professional",
-    "exp.academic": "Academic",
-    "exp.role1": "Current Position",
-    "exp.company1": "Company X",
-    "exp.desc1": "Description of your responsibilities and achievements in this role.",
-    "exp.role2": "Previous Position",
-    "exp.company2": "Company Y",
-    "exp.desc2": "Description of your responsibilities and achievements in this role.",
-    "exp.role3": "Degree in Your Field",
-    "exp.company3": "University Z",
-    "exp.desc3": "Details about your academic education and highlights.",
-    "exp.role4": "Postgraduate / Course",
-    "exp.company4": "Institution W",
-    "exp.desc4": "Details about specializations or complementary courses.",
+    "exp.academic": "Academic education",
+
+    "exp.role1": "Product Owner Intern",
+    "exp.company1": "dti digital",
+    "exp.desc1":
+      "Working as a Product Owner Intern, supporting backlog management, requirement definition and digital product development follow-up.",
+
+    "exp.role2": "Service Intern",
+    "exp.company2": "Sisloc Softwares",
+    "exp.desc2":
+      "Responsible for technical support, customer service and assisting in resolving system-related demands.",
+
+    "exp.role3": "Support Intern",
+    "exp.company3": "Prefeitura de Belo Horizonte",
+    "exp.desc3":
+      "Provided technical support to users, basic system maintenance and internal IT assistance.",
+
+    "exp.role4": "Field Sales Representative",
+    "exp.company4": "Claro Brasil",
+    "exp.desc4":
+      "Experience in external sales, negotiation and customer service, strengthening communication and persuasion skills.",
+
     // Projects
     "proj.label": "Projects",
     "proj.title": "Selected works",
     "proj.imgPlaceholder": "Project image",
     "proj.viewProject": "View project",
     "proj.code": "Code",
-    "proj.proj1.title": "Project Name 1",
-    "proj.proj1.desc": "Brief description of the project, technologies used and your role in development.",
-    "proj.proj2.title": "Project Name 2",
-    "proj.proj2.desc": "Brief description of the project, technologies used and your role in development.",
-    "proj.proj3.title": "Project Name 3",
-    "proj.proj3.desc": "Brief description of the project, technologies used and your role in development.",
-    "proj.proj4.title": "Project Name 4",
-    "proj.proj4.desc": "Brief description of the project, technologies used and your role in development.",
+
+    "proj.proj1.title": "Product Management Project",
+    "proj.proj1.desc":
+      "Project focused on backlog organization, requirement definition and agile product development follow-up.",
+
+    "proj.proj2.title": "Technical Support System",
+    "proj.proj2.desc":
+      "Improvement of service and support processes, ensuring greater efficiency in ticket resolution.",
+
+    "proj.proj3.title": "Engineering Academic Project",
+    "proj.proj3.desc":
+      "Development of a practical solution during graduation, focused on problem analysis and technical implementation.",
+
+    "proj.proj4.title": "Commercial Project",
+    "proj.proj4.desc":
+      "Application of sales and negotiation strategies to increase conversion in field sales.",
+
     // Certificates
     "cert.label": "Certificates",
     "cert.title": "Qualifications",
+
     // Contact
     "contact.label": "Contact",
     "contact.title": "Let's talk?",
-    "contact.desc": "I'm available for new opportunities and collaborations. Get in touch!",
+    "contact.desc":
+      "I'm available for new opportunities, especially in technology and digital product areas. Get in touch!",
     "contact.footer": "All rights reserved",
-    "contact.form.name": "Name",
-    "contact.form.email": "Email",
-    "contact.form.message": "Message",
-    "contact.form.placeholder.name": "Your name",
-    "contact.form.placeholder.email": "your@email.com",
-    "contact.form.placeholder.message": "Type your message here...",
-    "contact.form.submit": "Send Message",
-    "contact.form.sending": "Sending...",
-    "contact.form.success": "Message sent successfully!",
-    "contact.form.error": "Error sending message. Try again.",
-    "contact.form.required": "This field is required",
-    "contact.form.invalid_email": "Invalid email",
+
     // Game
     "game.label": "Mini Game",
     "game.title": "Snake 🐍",
-    "game.desc": "A fun break! Use arrow keys or swipe on screen to play.",
+    "game.desc":
+      "A fun break! Use arrow keys or swipe on screen to play.",
     "game.score": "Score",
     "game.highscore": "High Score",
     "game.play": "Play",

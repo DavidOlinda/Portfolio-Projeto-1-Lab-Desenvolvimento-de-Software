@@ -7,15 +7,30 @@ const ExperienceSection = () => {
     {
       type: t("exp.professional"),
       items: [
-        { period: "2022 — Present", role: t("exp.role1"), company: t("exp.company1"), description: t("exp.desc1") },
-        { period: "2020 — 2022", role: t("exp.role2"), company: t("exp.company2"), description: t("exp.desc2") },
+        { period: "2025 — Present", role: t("exp.role1"), company: t("exp.company1"), description: t("exp.desc1") },
+        { period: "2025 — 2025", role: t("exp.role2"), company: t("exp.company2"), description: t("exp.desc2") },
+
+        { period: "2024 — 2025", role: t("exp.role3"), company: t("exp.company3"), description: t("exp.desc3") },
+        { period: "2024", role: t("exp.role4"), company: t("exp.company4"), description: t("exp.desc4") },
       ],
     },
     {
       type: t("exp.academic"),
       items: [
-        { period: "2018 — 2022", role: t("exp.role3"), company: t("exp.company3"), description: t("exp.desc3") },
-        { period: "2023", role: t("exp.role4"), company: t("exp.company4"), description: t("exp.desc4") },
+        {
+          period: "fev de 2024 - dez de 2027",
+          role: "Bacharelado em Engenharia, Engenharia de Software",
+          company: "PUC Minas",
+          description: "Capacidade de organização, Habilidades analíticas e mais 9 competências",
+          logo: "/logos/puc-minas.png",
+        },
+        {
+          period: "fev de 2021 - dez de 2023",
+          role: "High School Diploma, Redes de computadores",
+          company: "Centro Federal de Educação Tecnológica de Minas Gerais",
+          description: "Capacidade de organização, Operating Systems e mais 15 competências",
+          logo: "/logos/cefet.png",
+        },
       ],
     },
   ];
@@ -45,6 +60,13 @@ const ExperienceSection = () => {
                       <h4 className="text-foreground font-body font-semibold text-lg group-hover:text-primary transition-colors">
                         {item.role}
                       </h4>
+                      {item.logo && (
+                        <img
+                          src={item.logo}
+                          alt={item.company}
+                          className="h-10 w-auto mb-1"
+                        />
+                      )}
                       <p className="text-primary/80 font-body text-sm mb-2">{item.company}</p>
                       <p className="text-muted-foreground font-body text-sm leading-relaxed">{item.description}</p>
                     </div>
